@@ -6,8 +6,6 @@ btn_envoyer_form.addEventListener("click", function addMessage() {
     let nom = document.getElementById("form_nom").value;
     let message = document.getElementById("form_message").value;
     let date = "30/04/2024";
-    console.log(nom);
-    console.log(message);
 
     /* creation nouvelle carte */
     let div_message = document.createElement("div");
@@ -19,7 +17,7 @@ btn_envoyer_form.addEventListener("click", function addMessage() {
     let hr_barre = document.createElement("hr");
     let p_message = document.createElement("p");
 
-    image.src = "./images/photo1.jpg";
+    image.src = "../images/photo1.jpg";
     image.alt = "photo";
     h3_nom.textContent = nom;
     h4_date.textContent = date;

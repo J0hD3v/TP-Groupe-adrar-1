@@ -51,13 +51,14 @@ main section {
 /* ----------------------------------------------------- formulaire */
 
 form {
-    width: 50%;
+    width: 25%;
     margin: auto;
     margin-top: 5vh;
-    border: 1px solid black;
+    border: 1px solid silver;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: azure;
 }
 
 label,
