@@ -1,0 +1,93 @@
+body{
+    background-color:rgb(10, 10, 10);
+    color:azure;
+}
+
+h1{
+    text-align: center;
+}
+
+.containerTotal{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.imageBanniere {
+    position: fixed;
+    top: 20%;
+    height: 50%;
+    border-radius: 20px;
+    box-shadow: azure 0px 20px 55px, azure 0px -12px 30px, azure 0px 4px 6px, azure 0px 12px 13px, azure 0px -3px 5px;
+}
+
+.imageUne {
+    left: 0;
+}
+
+.imageDeux {
+    right: 0;
+}
+
+.containerTotal img{
+    align-items: center;
+}
+
+.containerGrand{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    width: 100%;
+}
+
+.containerPetit{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border:  1px solid azure;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    width: 50%; 
+}
+
+
+.date{
+    text-align: center;
+}
+
+span{
+    color:gold;
+    font-weight: 900;
+}
+
+.date span{
+    font-size:xx-large;
+}
+
+.lieu{
+    text-align: center;
+}
+
+.lieu h5{
+    font-weight: bolder;
+    font-size: large;
+}
+
+.prixBouton{
+    text-align: center;
+}
+
+.prixBouton span{
+    font-size: larger;
+}
+
+.prixBouton button{
+    background-color: black;
+    color:azure;
+    font-weight: 900;
+    border: 1px solid azure;
+    border-radius: 5px;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}

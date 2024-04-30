@@ -1,0 +1,44 @@
+/*CSS page contact*/
+body{
+    background-color: black;
+    color: azure;
+    text-align: center;
+}
+
+table{
+    margin: 0 auto;
+    margin-top: 100px;
+    border: solid 1px white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 5px 5px 5px 5px;
+    border: solid 1px white;
+}
+
+div{
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+/*CSS page boutique*/
+
+.element{
+    display: flex;
+    justify-content: space-around;
+}
+
+.element article img{
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.element article{
+    width: 20%;
+}

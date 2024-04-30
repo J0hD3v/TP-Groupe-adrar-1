@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: azure;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    padding: 10px 10px 10px 10px;  
+}
+
+article{
+    border: 1px white solid;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+    
+}
+
+button{
+    margin: 5px 0 5px 0;
+}
+
+.container1{
+    display: flex;
+    text-align: center;
+}
+

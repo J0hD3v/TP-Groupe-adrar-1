@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(10, 10, 10);
+    color:azure;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    margin-top: 5%;
+}
+
+.container img{
+    width: 15vw;
+    /* height: 30vh; */
+    margin-bottom: 15%;
+    box-shadow: azure 0px 20px 55px, azure 0px -12px 30px, azure 0px 4px 6px, azure 0px 12px 13px, azure 0px -3px 5px;
+}
+
+.container img:hover{
+    animation-name: grossir;
+    animation-duration: 1s;
+    cursor: pointer;
+}
+ @keyframes grossir {
+   from {transform: scale(1);}
+   to   {transform: scale(1.1);}
+    }
+ 
