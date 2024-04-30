@@ -1,0 +1,88 @@
+/* ----------------------------------------------------- cartes */
+
+main section {
+    margin-top: 10vh;
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.container {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(32, 32, 32);
+    margin-left: 1em;
+    margin-right: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.container img {
+    width: 195px;
+    margin-top: 10px;
+}
+
+.container hr {
+    font-style: normal;
+    width: 200px;
+    height: 0;
+}
+
+.container p {
+    padding: 0.5em;
+    max-width: 200px;
+}
+
+.espace_messages .container:nth-of-type(odd) {
+    background-color: rgb(212, 212, 212);
+}
+
+.espace_messages .container:nth-of-type(even) {
+    background-color: rgb(181, 212, 218);
+}
+
+
+/* ----------------------------------------------------- formulaire */
+
+form {
+    width: 50%;
+    margin: auto;
+    margin-top: 5vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label,
+input,
+textarea {
+    margin-bottom: 10px;
+}
+
+form h4 {
+    margin-bottom: 1em;
+}
+
+form #form_nom {
+    height: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+form textarea {
+    min-height: 2em;
+    max-height: 10vh;
+    min-width: 10em;
+    max-width: 90%;
+}
+
+form #btn_envoyer_form {
+    width: 50%;
+}
