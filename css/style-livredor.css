@@ -54,11 +54,16 @@ form {
     width: 25%;
     margin: auto;
     margin-top: 5vh;
+    background-image: linear-gradient(red,blue);
     border: 1px solid silver;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: azure;
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 37.5%;
 }
 
 label,
@@ -86,4 +91,24 @@ form textarea {
 
 form #btn_envoyer_form {
     width: 50%;
+    cursor: pointer;
+}
+
+
+/* ----------------------------------------------------- bouton */
+
+#btn_popup_new {
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    height: 50px;
+    width: 50px;
+    background-image: linear-gradient(red,blue);
+    border-radius: 100%;
+    color: azure;
+    cursor: pointer;
+}
+
+#btn_popup_new:hover {
+    scale: 1.1;
 }
