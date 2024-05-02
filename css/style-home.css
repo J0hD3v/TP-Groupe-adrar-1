@@ -1,0 +1,21 @@
+main {
+    min-height: 80vh;
+}
+
+.btn_nav_new {
+    position: relative;
+    padding: 1em;
+    background-color: azure;
+    border: 0.5px solid black;
+    cursor: pointer;
+}
+
+.btn_nav_new:nth-of-type(1) {
+    left: 40vw;
+    top: 50vh;
+}
+
+.btn_nav_new:nth-of-type(2) {
+    left: 60vw;
+    top: 50vh;
+}
